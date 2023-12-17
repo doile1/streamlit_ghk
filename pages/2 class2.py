@@ -9,9 +9,11 @@ st.markdown(" 2. 물체의 색이 빛의 삼원색으로 합성됨을 관찰할 
 st.divider()
 
 st.subheader("탐구2. 조명 색에 따른 물체의 색 관찰하기", divider='violet')
-video_file = open('./videos/조명 색에 따른 물체의 색 관찰(실험영상).mp4', 'rb')
-video_bytes = video_file.read()
-st.video(video_bytes)
+#video_file = open('./videos/조명 색에 따른 물체의 색 관찰(실험영상).mp4', 'rb')
+#video_bytes = video_file.read()
+#st.video(video_bytes)
+video_url = 'https://drive.google.com/uc?id=1TsYD9foa4HtuLMvJDSOZJEkvCK8_rj7i'
+st.video(video_url)
 st.markdown('##### **다음 과정에 따라 실험해 봅시다.**')
 st.markdown(" 1. 상자의 옆면에 지름 1cm 정도의 구멍을 뚫은 후 상자 속에 파란색 공을 넣는다.")
 st.markdown(" 2. RGB 슬라이드바를 조절하여 점묘화를 파란색으로 바꾼다.")
@@ -62,6 +64,11 @@ st.image(rgbmerged_image)
 st.divider()
 
 st.subheader("개념 5. 물체의 색", divider='violet')
+#video_file = open('./videos/물체의 색(교과개념자료).mp4', 'rb')
+#video_bytes = video_file.read()
+#st.video(video_bytes)
+video_url = 'https://drive.google.com/uc?id=1j5lpIWUXQ8DOdc0vgkLDh5mfj_dWeVb2'
+st.video(video_url)
 image = Image.open("./images/물체의 색.png")
 st.image(image)
 st.markdown("물체의 색은 그 물체가 반사하는 빛의 색이다.")
