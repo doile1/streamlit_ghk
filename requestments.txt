@@ -1,6 +1,6 @@
-streamlit
+rembg
 numpy
 pandas
 image
 opencv-python
-streamlit-drawable-canvas==0.9.3
+streamlit-drawable-canvas
