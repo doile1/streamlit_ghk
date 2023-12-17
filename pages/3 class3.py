@@ -1,4 +1,4 @@
-pip install streamlit_drawable_canvas
+$pip install streamlit_drawable_canvas
 import pandas as pd
 from PIL import Image
 import streamlit as st
