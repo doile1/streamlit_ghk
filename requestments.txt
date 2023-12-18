@@ -4,3 +4,4 @@ pandas
 image
 opencv-python
 streamlit_drawable_canvas
+streamlit-drawable-canvas
