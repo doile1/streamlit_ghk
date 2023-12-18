@@ -1,6 +1,6 @@
 rembg
-numpy
 pandas
 image
 opencv-python
 streamlit-drawable-canvas
+
