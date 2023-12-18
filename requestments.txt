@@ -4,5 +4,3 @@ numpy
 image
 opencv-python
 streamlit-drawable-canvas
-TensorFlow
-keras
